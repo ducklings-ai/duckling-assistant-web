@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* AliceBlue */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5075A9; /* MediumBlue */
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #add8e6; /* LightBlue */
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.1); /* Blue with 10% opacity */
+}
+
+form h3 {
+    color: #5075A9; /* MediumBlue */
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #add8e6; /* LightBlue */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #5075A9; /* MediumBlue */
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #5075A9; /* DarkBlue */
+}

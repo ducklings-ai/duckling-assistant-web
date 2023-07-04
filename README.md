@@ -1,1 +1,1 @@
-# duckling-assistant-web
+Homepage for DucklingAI
